@@ -20,7 +20,7 @@ body{
   display: flex;
   align-items: auto;
   justify-content: center;
-  background:#FFFFFF;
+  background:#0D0D0D;
 }
 /* cgpa container css part */
 .cgpa_container{
