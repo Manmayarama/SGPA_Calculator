@@ -68,7 +68,7 @@ if(total==20)
 	total=0;
 }	
 let total_sgpa=total/20;
-let total_sgpa1=total_sgpa.toPrecision(2);
+let total_sgpa1=total_sgpa.toPrecision(3);
 // total value show output
 document.querySelector('.cgpa_output h1').innerHTML=`TOTAL SGPA = ${total_sgpa1}`
 })
