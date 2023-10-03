@@ -93,7 +93,6 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 document.onkeypress = function (event) {
   event = (event || window.event);
   if (event.keyCode == 123) {
-	alert('Don't Try To Inspect...!');
     return false;
   }
 }
