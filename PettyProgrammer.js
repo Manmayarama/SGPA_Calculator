@@ -93,6 +93,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 document.onkeypress = function (event) {
   event = (event || window.event);
   if (event.keyCode == 123) {
+	alert('Don't Try To Inspect...!');
     return false;
   }
 }
@@ -128,7 +129,7 @@ document.onkeydown = function(e) {
              e.keyCode === 86 || 
              e.keyCode === 85 || 
              e.keyCode === 117)) {
-            alert('not allowed');
+            alert('Not Allowed View Source Code...!');
             return false;
         } else {
             return true;
