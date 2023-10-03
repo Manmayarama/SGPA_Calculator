@@ -122,16 +122,3 @@ jQuery(document).ready(function($){
     }
   });
 });
-// To Disable ctrl+u
-document.onkeydown = function(event) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 || 
-             e.keyCode === 117)) {
-            alert('Not Allowed View Source Code...!');
-            return false;
-        } else {
-            return true;
-        }
-};
