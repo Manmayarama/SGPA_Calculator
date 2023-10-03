@@ -123,7 +123,7 @@ jQuery(document).ready(function($){
   });
 });
 // To Disable ctrl+u
-document.onkeydown = function(e) {
+document.onkeydown = function(event) {
         if (e.ctrlKey && 
             (e.keyCode === 67 || 
              e.keyCode === 86 || 
